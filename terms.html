@@ -6,17 +6,20 @@
   <title>Lightning Numerology Terms &amp; Disclaimer</title>
   <style>
     :root {
-      color-scheme: light dark;
-      --bg: #0f0b07;
-      --panel: #17110c;
-      --text: #f6efe7;
-      --muted: #c8bdb1;
-      --accent: #f59e0b;
-      --border: rgba(245, 158, 11, 0.22);
+      color-scheme: dark;
+      --bg: #061650;
+      --panel: #0c2575;
+      --text: #fff7c8;
+      --muted: #c8d6ff;
+      --accent: #ffe247;
+      --red: #ff3048;
+      --border: rgba(255, 48, 72, 0.34);
     }
     body {
       margin: 0;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(255, 226, 71, 0.16), transparent 32%),
+        linear-gradient(180deg, var(--bg), #070021);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       line-height: 1.6;
@@ -29,7 +32,7 @@
     article {
       background: var(--panel);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 16px;
       padding: 28px;
     }
     h1, h2 { line-height: 1.2; }
@@ -40,7 +43,7 @@
     }
     h2 {
       margin-top: 28px;
-      color: var(--accent);
+      color: var(--red);
       font-size: 20px;
     }
     p, li { color: var(--muted); }
@@ -106,7 +109,7 @@
       <p>
         To the fullest extent permitted by applicable law, the developer will not be liable for indirect, incidental,
         special, consequential, exemplary, or punitive damages, or for losses arising from reliance on the app's
-        interpretations, inability to use the app, third-party advertisements, or loss of locally stored game history.
+        interpretations, inability to use the app, third-party advertisements, or loss of locally stored game progress.
         Nothing in these terms excludes liability that cannot legally be excluded or limits rights that cannot legally
         be waived under applicable consumer-protection law.
       </p>
